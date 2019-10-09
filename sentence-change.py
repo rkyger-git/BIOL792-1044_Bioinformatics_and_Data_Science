@@ -4,13 +4,13 @@
 # This program takes a sentence from user input, turns letters to lower case, removes the space, and counts the length.
 
 #give user instructions and convert input into string
-sentence = string(input("Please input a sentence: "))
-	
+sentence = str(input("Please input a sentence: "))
+
 #convert to lower case
 sentence = sentence.lower()
 
 #replace spaces with nothing
-sentence = sentence.replace(“ “, “”)
+sentence = sentence.replace(" ", "")
 
 #print new sentence
 print("The new sentence is: ", sentence)
