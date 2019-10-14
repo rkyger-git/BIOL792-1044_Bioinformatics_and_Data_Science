@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # file: myxozoa-organelle-project-script-1.sh
-# This program runs tblastn queries of organelle protein seqeunce .fasta files against myxozoan genome assembly .fasta files and outputs the results to .txt files. 
+# This program runs tblastn queries of organelle protein seqeunce .fasta files against myxozoan genome assembly .fna files and outputs the results to .txt files. 
 
 # Loop through the genome assembly .fna files for each myxozoan
 for filename in *.fna;
