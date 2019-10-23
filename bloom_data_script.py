@@ -3,6 +3,7 @@
 #log_body_size.py
 
 #This script reads through "Bloom_etal_2018_Reduced_Dataset.csv" and prints out the taxon name, the diadromous status, and the total log body size. 
+
 #define the file of interest
 InFileName = "Bloom_etal_2018_Reduced_Dataset.csv"
 
