@@ -10,9 +10,11 @@ do
         for protname in *.fasta;
         do
                 # Tell user which tBLASTn has been initiated
-                echo "Starting tBLASTn of $protname against $filename./n"
+                echo "Starting tBLASTn of $protname against $filename."
                 # Run tblastn, -query is the protein seqeunce, -subject is the genome assembly, and -out is the .txt file with the results 
-                tblastn -query $protname -subject $filename -out ${protname}_${filename}_tblastn.txt
+                tblastn -query $protname -subject $filename -out ${filename}_${protname}_tblastn.txt
+                # Tell user tBLASTn is complete
+                echo "tBLASTn complete!"
         done
 done
 
